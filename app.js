@@ -2,7 +2,7 @@ var express = require('express');
 var path = require('path');
 var mongoose = require('mongoose');
 var config = require('./config/database');
-var pages = require('./routes/pages');
+var pages = require('./routes/pages');  
 
 
 //connect to db
